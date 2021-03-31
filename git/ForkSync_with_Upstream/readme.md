@@ -1,5 +1,7 @@
 # How to Keep your Fork in Sync with an Upstream Repository
 
+![Unupdated GitPage](unupdated-gitpage.png)
+
 ```bash
 #git clone <clone_url>
 git clone git@github.com:ajiraj2411/telegraf.git
@@ -13,3 +15,5 @@ git checkout upstream/master
 git checkout master
 git merge upstream/master
 ```
+
+![Updated GitPage](updated-gitpage.png)
